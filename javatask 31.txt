@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+         1. Write without arg
+        psvm();
+        
+         2. spvm(args)
+        spvm(args);
+        
+         3. psm(args)
+        psm(args);
+    }
+    
+ 1. write without arg
+    public static void psvm() {
+        System.out.println("psvm() method without arguments");
+    }
+    
+  2. spvm(args)
+    public static void spvm(String[] args) {
+        System.out.println("spvm(args) method with arguments");
+        
+    }
+    
+     3. psm(args)
+    public static void psm(String[] args) {
+        System.out.println("psm(args) method with arguments");
+        Additional processing with args can be done here
+    }
+}
